@@ -1,0 +1,23 @@
+[user]
+	name = Mathias Kluge 
+    email = 59650843+mathiaskluge@users.noreply.github.com
+[core]
+	editor = nvim
+	pager = delta
+    whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+	autocrlf = input   # Converts CRLF to LF on commit (good for cross-platform projects)
+
+[init]
+	defaultBranch = main  # Sets 'main' as the default branch for new repos
+
+[alias]
+	co = checkout  # Shortens 'git checkout' to 'git co'
+	br = branch    # Shortens 'git branch' to 'git br'
+	ci = commit    # Shortens 'git commit' to 'git ci'
+	st = status    # Shortens 'git status' to 'git st'
+
+[diff]
+	tool = vimdiff  # Uses vimdiff to compare file differences
+
+[push]
+	default = simple  # Safe default for 'git push'
